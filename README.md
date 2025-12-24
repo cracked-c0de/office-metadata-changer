@@ -67,10 +67,10 @@ npm install
 node src/index.js
 ```
 
-or (if `bin` is configured):
+or:
 
 ```bash
-omc
+npx office-meta
 ```
 
 ---
