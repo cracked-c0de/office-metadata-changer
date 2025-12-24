@@ -1,0 +1,43 @@
+{
+  "name": "office-metadata-changer",
+  "version": "1.0.0",
+  "description": "CLI tool for viewing and editing metadata of Microsoft Office documents (DOCX, XLSX, PPTX)",
+  "author": "cracked-c0de",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "office-meta": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "office",
+    "metadata",
+    "docx",
+    "xlsx",
+    "pptx",
+    "cli",
+    "openxml",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cracked-c0de/office-metadata-changer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cracked-c0de/office-metadata-changer/issues"
+  },
+  "homepage": "https://github.com/cracked-c0de/office-metadata-changer#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "inquirer": "^13.1.0",
+    "jszip": "^3.10.1",
+    "ora": "^9.0.0",
+    "xml2js": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
